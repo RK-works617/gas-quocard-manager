@@ -1,4 +1,4 @@
-ffunction quocardCalculation(e) {
+function quocardCalculation(e) {
   let ss=SpreadsheetApp.getActiveSpreadsheet();
   let sheet=ss.getSheetByName("記録簿");
   let date=e.values[1];
